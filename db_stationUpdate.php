@@ -1,6 +1,6 @@
 <?php
 // Include serial support
-include 'comms/PhpSerial.php';
+include 'PhpSerial.php';
 
 // Include Database Class
 include 'db.php';
