@@ -1,0 +1,54 @@
+        $.ajax({
+            url: "db_search.php",
+            type: 'POST',
+            cache: false,
+            dataType: 'json',
+            data: validate,
+            error: function(xhr){
+
+                var dataError = $.parseJSON(xhr.responseText);
+                console.log(dataError.msg);
+                // $('.toggle div').remove();
+                // $('.toggle').prepend('<div>' + dataError.msg + '</div>');
+                
+            },
+
+            success: function(xhr) { 
+
+                var dataGood = $.parseJSON(xhr.responseText);
+                console.log(dataGood.msg);
+                // $('div.status').hide();
+                // $('.logOut').show();
+                // $('.welcome').text(xhr.msg + ', ' + validate.email);
+
+                // var overflow = 0; //10;
+                // call php function on server to get the latest values
+                //
+                //
+               }
+                // return gauge.config.min - overflow + (gauge.config.max - gauge.config.min + overflow*2) *  Math.random();
+            }
+
+        }); 
+
+ var xmlhttp;    
+
+        xmlhttp=new XMLHttpRequest();
+
+        xmlhttp.onreadystatechange=function()
+        {
+            if (xmlhttp.readyState==4 && xmlhttp.status==200)
+                {
+                // var dataGood = $.parseJSON(xhr.responseText);
+                // console.log(dataGood.msg);  
+      
+
+                }
+        }
+        xmlhttp.open("GET","db_search.php",false);
+        xmlhttp.send();  
+
+/*# sourceMappingURL=bootstrap.css.map */
+
+
+        

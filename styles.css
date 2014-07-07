@@ -1,0 +1,106 @@
+* {
+    margin: 0px;
+    padding: 0px;
+}
+
+body {
+    background-color: red;
+    width: 100%;
+}
+
+.mainContainer {
+    background-color: green;
+    width: 960px;
+}
+
+.heading {
+    background-color: blue;
+    width: 960px;
+    height: 60px;
+}
+
+.today {
+    float: right;
+    /*padding: 5px; */
+}
+
+.meters {
+    background-color: orange;
+    width: 960px;
+    height: 320px;
+}
+
+.temperature {
+    background-color: grey;
+    display: inline;
+    width: 310px;
+    height: 310px;
+}
+
+.humidity {
+    display: inline;
+}
+
+.barometer {
+    display: inline;
+}
+
+.graphs {
+    background-color: blue;
+    width: 960px;
+    height: 260px;
+}
+
+.temperatureGraph {
+    display: inline;
+}
+
+.humidityGraph {
+    display: inline;
+}
+
+.barometerGraph {
+    display: inline;
+}
+
+.pirGraph {
+    display: inline;
+}
+
+.controls {
+    background-color: yellow;
+    width: 960px;
+    height: 100px;
+}
+
+.switches {
+    background-color: green;
+    float: left;
+    display: inline;
+    width: 40%;
+    height: 90px;
+}
+
+.lightSwitch {
+    display: inline;
+}
+
+.soundSwitch {
+    display: inline;
+}
+
+.alarmButton {
+    display: inline;
+}
+
+.configurationArea {
+    background-color: yellow;
+    display: inline;
+    float: right;
+}
+
+.configurationEntry {
+    float: right;
+    padding: 5px; 
+}
+
